@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D9FB8BF2C8DF58200BE1C92 /* HIITFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FB8BE2C8DF58200BE1C92 /* HIITFit.swift */; };
 		3DB4BA372C8B257F00B5883E /* HillFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4BA362C8B257F00B5883E /* HillFitApp.swift */; };
 		3DB4BA392C8B257F00B5883E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4BA382C8B257F00B5883E /* ContentView.swift */; };
 		3DB4BA3B2C8B258100B5883E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4BA3A2C8B258100B5883E /* Assets.xcassets */; };
@@ -17,9 +18,11 @@
 		3DB4BA502C8B2DCA00B5883E /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4BA4C2C8B2DCA00B5883E /* step-up.mp4 */; };
 		3DB4BA512C8B2DCA00B5883E /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4BA4D2C8B2DCA00B5883E /* burpee.mp4 */; };
 		3DB4BA522C8B2DCA00B5883E /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DB4BA4E2C8B2DCA00B5883E /* sun-salute.mp4 */; };
+		3DB4BA552C8BA39000B5883E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4BA542C8BA39000B5883E /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D9FB8BE2C8DF58200BE1C92 /* HIITFit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFit.swift; sourceTree = "<group>"; };
 		3DB4BA332C8B257F00B5883E /* HillFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HillFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB4BA362C8B257F00B5883E /* HillFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HillFitApp.swift; sourceTree = "<group>"; };
 		3DB4BA382C8B257F00B5883E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 		3DB4BA4C2C8B2DCA00B5883E /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
 		3DB4BA4D2C8B2DCA00B5883E /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		3DB4BA4E2C8B2DCA00B5883E /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		3DB4BA542C8BA39000B5883E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				3DB4BA382C8B257F00B5883E /* ContentView.swift */,
 				3DB4BA462C8B287500B5883E /* WelcomeView.swift */,
 				3DB4BA482C8B288200B5883E /* ExerciseView.swift */,
+				3DB4BA542C8BA39000B5883E /* HeaderView.swift */,
+				3D9FB8BE2C8DF58200BE1C92 /* HIITFit.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB4BA552C8BA39000B5883E /* HeaderView.swift in Sources */,
 				3DB4BA492C8B288200B5883E /* ExerciseView.swift in Sources */,
 				3DB4BA392C8B257F00B5883E /* ContentView.swift in Sources */,
+				3D9FB8BF2C8DF58200BE1C92 /* HIITFit.swift in Sources */,
 				3DB4BA472C8B287500B5883E /* WelcomeView.swift in Sources */,
 				3DB4BA372C8B257F00B5883E /* HillFitApp.swift in Sources */,
 			);
