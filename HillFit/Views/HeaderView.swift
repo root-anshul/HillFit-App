@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct HeaderView: View {
+    
+    let exerciseNames:String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(exerciseNames)
+                .font(.largeTitle)
+            HStack {
+                Image(systemName: "1.circle")
+                Image(systemName: "2.circle")
+                Image(systemName: "3.circle")
+                Image(systemName: "4.circle")
+            }
+        }
+        
+        .font(.title2)
     }
 }
 
+
 #Preview {
-    HeaderView()
+    HeaderView(exerciseNames: "Squat")
+        .previewLayout(.sizeThatFits)
+        
 }
+
+
