@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  HillFit
+//  HIITFit
 //
 //  Created by anshul on 06/09/24.
 //
