@@ -18,17 +18,14 @@ struct ExerciseView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                HeaderView(exerciseNames: exercise.exerciseName)
+                HeaderView(titleText: exercise.exerciseName)
                     .padding(.bottom)
                 
-                if Bundle.main.url(forResource: exercise.videoName, withExtension: "mp4") != nil {
+       
                     VideoPlayerView(videoName: exercise.videoName)
                         .frame(height: geometry.size.height*0.45)
                     
-                } else {
-                    Text("Couldn't find \(exercise.exerciseName).mp4")
-                        .foregroundColor(.red)
-                }
+              
                 
                 Text(Date().addingTimeInterval(interval),style: .timer)
                     .font(.system(size: geometry.size.height*0.07))
